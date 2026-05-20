@@ -147,6 +147,21 @@ When the task is ready (`status: "ready"`), `solution` contains:
 | `gen_time` | `string` | GeeTest v4: generation timestamp |
 | `captcha_output` | `string` | GeeTest v4: captcha output string |
 
+### Example
+
+```json
+{
+  "status": "ready",
+  "solution": {
+    "captcha_id": "647f5ed2ed8acb4be36784e01556bb71",
+    "lot_number": "8a2c4e5b3f1d4567a9b8c0d2e3f4a5b6",
+    "pass_token": "<long pass token from validation server>",
+    "gen_time": "1735689600",
+    "captcha_output": "<base64-encoded captcha output>"
+  }
+}
+```
+
 ### How to use the result
 
 v4: submit `captcha_id`, `lot_number`, `pass_token`, `gen_time`, and `captcha_output` to the target site's form or API exactly as Capzy returns them.
