@@ -6,16 +6,16 @@
 
 **Solve GeeTest slider, click, and icon challenges. Auto-routes v3 vs v4.**
 
-[![Solve cost](https://img.shields.io/badge/from-%240.001%20%2F%20solve-%23ff5d2a)](https://capzy.ai/pricing)
-[![Speed](https://img.shields.io/badge/avg%20solve-~8%20seconds-%2322c55e)](https://capzy.ai/products/geetest)
+[![Solve cost](https://img.shields.io/badge/from-%240.001%20%2F%20solve-%23ff5d2a)](https://capzy.ai/solvers)
+[![Speed](https://img.shields.io/badge/avg%20solve-~8%20seconds-%2322c55e)](https://capzy.ai/solvers/geetest)
 [![Uptime](https://img.shields.io/badge/uptime-99.9%25-%2322c55e)](https://capzy.ai/status)
 [![License: MIT](https://img.shields.io/badge/license-MIT-%23ff5d2a)](LICENSE)
 
-[Live Demo](https://capzy.ai/products/geetest/demo) ·
+[Live Demo](https://capzy.ai/solvers/geetest/demo) ·
 [Get Free $0.10 Credit](https://capzy.ai/auth/register) ·
 [Dashboard](https://capzy.ai/dashboard) ·
 [Full Docs](https://capzy.ai/docs) ·
-[Pricing](https://capzy.ai/pricing)
+[Pricing](https://capzy.ai/solvers)
 
 </div>
 
@@ -187,7 +187,7 @@ v4: submit `captcha_id`, `lot_number`, `pass_token`, `gen_time`, and `captcha_ou
 ## Other captcha types
 
 Capzy solves 25+ captcha types. Full catalog at
-[capzy.ai/pricing](https://capzy.ai/pricing). Each type has its own
+[capzy.ai/solvers](https://capzy.ai/solvers). Each type has its own
 solver repo on [github.com/capzy-ai](https://github.com/capzy-ai).
 
 ## License
