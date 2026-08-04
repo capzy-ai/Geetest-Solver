@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capzy.ai/capzy-logo.svg" alt="Capzy" width="220" />
+<img src="https://capzy.ai/capzy-icon.png" alt="Capzy" width="96" />
 
-# GeeTest v3 + v4 Solver
+# GeeTest v3 + v4 Captcha Solver
 
 **Solve GeeTest slider, click, and icon challenges. Auto-routes v3 vs v4.**
 
@@ -147,21 +147,6 @@ When the task is ready (`status: "ready"`), `solution` contains:
 | `gen_time` | `string` | GeeTest v4: generation timestamp |
 | `captcha_output` | `string` | GeeTest v4: captcha output string |
 
-### Example
-
-```json
-{
-  "status": "ready",
-  "solution": {
-    "captcha_id": "647f5ed2ed8acb4be36784e01556bb71",
-    "lot_number": "8a2c4e5b3f1d4567a9b8c0d2e3f4a5b6",
-    "pass_token": "<long pass token from validation server>",
-    "gen_time": "1735689600",
-    "captcha_output": "<base64-encoded captcha output>"
-  }
-}
-```
-
 ### How to use the result
 
 v4: submit `captcha_id`, `lot_number`, `pass_token`, `gen_time`, and `captcha_output` to the target site's form or API exactly as Capzy returns them.
@@ -189,6 +174,24 @@ v4: submit `captcha_id`, `lot_number`, `pass_token`, `gen_time`, and `captcha_ou
 Capzy solves 25+ captcha types. Full catalog at
 [capzy.ai/solvers](https://capzy.ai/solvers). Each type has its own
 solver repo on [github.com/capzy-ai](https://github.com/capzy-ai).
+
+## The Capzy platform
+
+Capzy is web access infrastructure for modern automation. Beyond captcha solving:
+
+| Product | What it does |
+|---------|--------------|
+| **[Solver API](https://capzy.ai/solvers)** | Solve 25+ captcha types through one HTTP API. |
+| **[Cloud Browser](https://capzy.ai/browser)** | Real remote Chrome over CDP / WebSocket, billed per GB. |
+| **[Fingerprint API](https://capzy.ai/fingerprints)** | Coherent, authentic browser fingerprints on demand. |
+| **[Proxies API](https://capzy.ai/proxies)** | Global proxy egress with simple per-GB pricing. |
+| **[Web Scraper API](https://capzy.ai/web-scraper)** | Fetch, render, bypass anti-bot, and extract in one call. |
+
+One API key and one wallet balance across every product.
+
+## Keywords
+
+`geetest v3 + v4 solver`, `geetest v3 + v4 captcha solver`, `geetest v3 + v4 bypass`, `geetest v3 + v4 api`, `solve geetest v3 + v4`, `geetest v3 + v4 solving service`, `captcha solver`, `captcha solving api`, `automated captcha solver`, `captcha bypass api`
 
 ## License
 
